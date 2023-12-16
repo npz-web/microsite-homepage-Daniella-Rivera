@@ -2,6 +2,7 @@
 
 body {
 background: #1d2555;
+background: url(darkblue.webp);
 }
 
 header {
@@ -14,9 +15,8 @@ header {
 nav a{
 color: #ffffff;
 text-decoration: none;
-font-size: 25px;
+font-size: 22px;
 font-family: Spectral;
-background: #1d2555;
 margin: 10px;
 padding: 10px;
 padding-left: 30px;
@@ -26,6 +26,7 @@ padding-right: 30px;
 nav a:hover, nav a:focus {
     background: #12183e;
     border-color: #ffffff;
+    flex-direction: row;
 }
 
 img {
@@ -33,7 +34,7 @@ img {
 }
 
 #logo img{
-width: 50px;
+width: 100px;
 margin: 20px;
 }
 
@@ -50,10 +51,11 @@ margin: 20px;
 }
 
 h1 {
-    color: #ffffff;
+color: #ffffff;
+background: #12183e;
 text-align: center;
 font-family: Spectral;
-font-size: 50px;
+font-size: 70px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
