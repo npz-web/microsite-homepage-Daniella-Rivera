@@ -1,1 +1,42 @@
 /* your styles will go here!! */
+
+body {
+background: #1d2555;
+}
+
+nav a{
+color: #ffffff;
+text-decoration: none;
+font-size: 25px;
+font-family: Spectral;
+background: #1d2555;
+margin: 10px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+nav a:hover, nav a:focus {
+    background: #12183e;
+    border-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+}
+
+#logo img{
+width: 40px;
+margin: 20px;
+}
+
+h1 {
+    color: #ffffff;
+text-align: center;
+font-family: Spectral;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
